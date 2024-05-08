@@ -1,8 +1,15 @@
+
+# System packages
 import csv
+import os.path
+
+# External packages
 import numpy as np
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
+from colored import Fore, Back, Style
 
+# Calorie Goals
 CALORIE_GOAL_LIMIT = 3600 # kcal
 PROTEIN_GOAL = 200 # grams
 FAT_GOAL = 80 # grams
@@ -10,7 +17,7 @@ CARBS_GOAL= 300 # grams
 
 today = []
 
-
+# dataclasses
 @dataclass
 class Food:
     name: str
@@ -19,7 +26,7 @@ class Food:
     fat: int
     carbs: int
 
-
+# Functions for diet entries
 def add_food_entry(entries):
     name = input("Enter the food name: ")
     try:
@@ -62,14 +69,15 @@ def load_entries(filename):
 def main():
     entries_file = "diet_entries.csv"
     entries = load_entries(entries_file)
-
+# Menu function
     while True:
-        print("\n1. Add Food Entry")
+        print(f"{Style.italic}{Fore.medium_turquoise}{Back.black}Welcome to Your Diet Tracker!{Style.reset}")
+        print(f"{Fore.dark_khaki}{Back.grey_3}1. Add Food Entry")
         print("2. Display Entries")
         print("3. Save Entries")
         print("4. Add Meal to Chart")
         print("5. Visualise Chart")
-        print("6. Exit")
+        print(f"6. Exit{Style.reset}")
         choice = input("Enter your choice (1/2/3/4/5/6): ")
 
         if choice == '1':
