@@ -12,7 +12,7 @@ Daily Diet is a diet tracking tool assist people reach their diet goals. Created
 - <b>Delete Entries</b> Lets users delete any entries and access the text file.
 
 <p align ="center">
-<img src="docs/screenshots/menu.png>"/>
+<img src="docs/screenshots/menu.png"/>
 </p>
 
 ## Source Control
