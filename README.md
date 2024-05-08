@@ -18,7 +18,7 @@ Daily Diet is a diet tracking tool assist people reach their diet goals. Created
 ## Source Control
 
 - Github Repository - [Daily Diet](https://github.com/kaihx1/KhoiThai-T1A3-DietTracker)
-- Clone Repository - `git clone https://github.com/jay-parkin/Terminal-App-Python/blob/main/README.md`
+- Clone Repository - `git clone https://github.com/kaihx1/KhoiThai-T1A3-DietTracker`
     <br>
 
 
