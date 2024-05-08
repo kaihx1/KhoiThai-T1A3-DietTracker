@@ -21,4 +21,28 @@ Daily Diet is a diet tracking tool assist people reach their diet goals. Created
 - Clone Repository - `git clone https://github.com/kaihx1/KhoiThai-T1A3-DietTracker`
     <br>
 
+## Installation
+
+1. Open a terminal.
+
+2. Clone the GitHub repository via SSH or HTTPS:
+SSH:
+
+```sh
+   git clone git@github.com:kaihx1/KhoiThai-T1A3-DietTracker.git
+```
+HTTPS:
+
+```sh
+    git clone https://github.com/kaihx1/KhoiThai-T1A3-DietTracker.git
+```
+3. Check in to the `/src` directory:
+    ```sh
+    cd KhoiThai_T1A3_prac/src
+    ```
+4. Type out manually to run the run_app.sh bash script:
+    ```sh
+    chmod +x run_app.sh
+    ```
+
 
