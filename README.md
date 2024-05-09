@@ -62,12 +62,12 @@ HTTPS:
 
 ## Dependencies
 
-    This application uses the following Python libraries:
+This application uses the following Python libraries:
 
-    - [`pyfiglet`](https://pypi.org/project/pyfiglet/): A Python full port of FIGlet. A program that renders typefaces and ASCII characters, used in this application for text headers in the terminal interface.
-    - [`colored`](https://pypi.org/project/colored/):  A libary for terminal text coloring. Used in this application for color and style choices in the text terminal interface.
-    - [`numpy`](https://pypi.org/project/numpy/): A library used for working with arrays. Used in this application for linear-algebra and matrice.
-    - [`matplotlib`](https://pypi.org/project/matplotlib/): A Python library used for data visulisation. Used in this application for diet visulisation in graphic metrics.
+    - [pyfiglet](https://pypi.org/project/pyfiglet/): A Python full port of FIGlet. A program that renders typefaces and ASCII characters, used in this application for text headers in the terminal interface.
+    - [colored](https://pypi.org/project/colored/):  A libary for terminal text coloring. Used in this application for color and style choices in the text terminal interface.
+    - [numpy](https://pypi.org/project/numpy/): A library used for working with arrays. Used in this application for linear-algebra and matrice.
+    - [matplotlib](https://pypi.org/project/matplotlib/): A Python library used for data visulisation. Used in this application for diet visulisation in graphic metrics.
 <br>
 
 ## Features
