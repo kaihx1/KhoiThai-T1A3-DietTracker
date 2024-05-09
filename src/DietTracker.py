@@ -8,6 +8,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from dataclasses import dataclass
 from colored import Fore, Back, Style
+from pyfiglet import Figlet
+f = Figlet(font='doom')
+print(f.renderText('Daily Diet'))
 
 # Calorie Goals
 CALORIE_GOAL_LIMIT = 3600 # kcal

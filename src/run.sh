@@ -5,4 +5,5 @@ source .venv/bin/activate
 pip3 install colored
 pip install numpy
 pip install matplotlib
-python3 DietTracker.py
+pip install pyfiglet
+python3 src/DietTracker.py
